@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*project css*/
+
+i:hover{
+  color:#ec9a34;
+}
+
+span:hover{
+  color:#ec9a34;
+}
+
+.footer__cards{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+.footer__card{
+  width: 35px;
+}
+img{
+  cursor: pointer;
+}
+.button{
+  cursor: pointer;
+  display: inline-block;
+  color: floralwhite;
+  padding: 1rem 1.8rem;
+  border-radius: 5rem;
+  transition: 0.3s;
+  background-color: #F0A500;
+  font-size: 1.5vw;
+  border: none;
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+button:hover{
+  color:black;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: rgb(48, 47, 47);
+  color: floralwhite; 
+}
+.inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background: brown ; */
+  border:black;
+}
+.inputBox input{
+  width: 100%;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex; 
+  padding-top: 90px;
+  padding-bottom: 90px;
+   height: 100;
+   width: 100;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./assets/images/home-img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+
+.imgs {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.profile {
+height: 100px;
+width: 100px;
+border-radius: 130px;
+} 
+
+input{
+  width: 450px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px rgb(253, 253, 251);
+  border: #F0A500;
+  outline: auto;
+  opacity: 'transparent';
+}
+
+.email{
+  height: 20px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name{
+  padding-left: 70px;
+  font-size: 1.5vw;
+}
+.second-input{
+  padding-top: 20px;
+}
+
+.login-button{
+  padding-top: 25px;
+}
+
+.link{
+  font-size: 1.5vw;
+}
+a{
+   color: rgb(32, 32, 34);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
